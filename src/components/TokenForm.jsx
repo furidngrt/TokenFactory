@@ -66,7 +66,7 @@ const TokenForm = ({ name, setName, symbol, setSymbol, totalSupply, setTotalSupp
             minWidth: "180px", // Ukuran minimal agar tetap terlihat bagus
           }}
         >
-          {creatingToken ? <Loader active inline size="small" inverted /> : "Create Token"}
+          {creatingToken ? <Loader active inline size="small" inverted /> : "Deploy Token"}
         </Button>
       </div>
     </Form>
