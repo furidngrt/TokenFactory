@@ -66,8 +66,8 @@ const Navbar = ({ network, setNetwork, connectWallet, disconnectWallet, walletAd
           font-size: 14px;
           font-weight: bold;
           border-radius: 8px;
-          min-width: 180px;
-          height: 40px;
+          min-width: 140px;
+          height: 38px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -87,7 +87,7 @@ const Navbar = ({ network, setNetwork, connectWallet, disconnectWallet, walletAd
             justify-content: center;
           }
           .wallet-button {
-            min-width: 185px;
+            min-width: 170px;
             justify-content: center;
           }
         }

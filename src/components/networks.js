@@ -39,6 +39,14 @@ const NETWORKS = {
     factoryAddress: "0x382C4E2964C5507BF798838a7Bc0081aa8e50e0B",
     explorer: "https://lineascan.build",  
   },
+  monad: {
+    name: "Monad Testnet",
+    rpcUrl: "https://testnet-rpc.monad.xyz/",
+    chainId: 10143,
+    currency: "MON",
+    factoryAddress: "0x3f6D80eB7518A4eB28c0Eb7d36c9Fa9B7b1b5b8F",
+    explorer: "https://testnet.monadexplorer.com",  
+  },
 };
 
 export default NETWORKS;

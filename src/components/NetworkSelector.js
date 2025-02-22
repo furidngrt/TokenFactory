@@ -103,6 +103,19 @@ const networkOptions = [
       </div>
     ),
   },
+  {
+    value: "monad",
+    label: (
+      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+        <img
+          src="https://pbs.twimg.com/profile_images/1877532281419739137/I_t8rg_V_400x400.jpg"
+          alt="Monad"
+          style={{ width: "24px", height: "24px", borderRadius: "50%" }}
+        />
+        Monad Testnet
+      </div>
+    ),
+  },
 ];
 
 const NetworkSelector = ({ network, setNetwork }) => {
