@@ -47,6 +47,14 @@ const NETWORKS = {
     factoryAddress: "0x3f6D80eB7518A4eB28c0Eb7d36c9Fa9B7b1b5b8F",
     explorer: "https://testnet.monadexplorer.com",  
   },
+  story: {
+    name: "Story Mainnet",
+    rpcUrl: "https://mainnet.storyrpc.io",
+    chainId: 1514,
+    currency: "IP",
+    factoryAddress: "0xb2A5b690ed415Ba718F3aC33C0fd65c817EC41b4",
+    explorer: "https://storyscan.xyz/",
+  },
 };
 
 export default NETWORKS;
